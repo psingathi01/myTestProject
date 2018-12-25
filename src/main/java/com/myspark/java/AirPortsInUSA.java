@@ -29,6 +29,7 @@ public class AirPortsInUSA {
 				
 		usaAirPorts.foreach(str ->{
 			System.out.println(str);
+			System.out.println("test");
 		});
 		
 		JavaRDD<String> usaAp=usaAirPorts.map(line -> {
